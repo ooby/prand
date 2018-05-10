@@ -1,0 +1,27 @@
+{
+    "name": "prand",
+    "version": "0.0.1",
+    "description": "random generators",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests --timeout 20000 --exit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/ooby/prand.git"
+    },
+    "keywords": [
+        "random",
+        "urandom",
+        "multiply-with-carry"
+    ],
+    "author": "Afanasy Argunov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ooby/prand/issues"
+    },
+    "homepage": "https://github.com/ooby/prand#readme",
+    "devDependencies": {
+        "mocha": "^5.1.1"
+    }
+}

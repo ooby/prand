@@ -1,7 +1,8 @@
 const spawn = require('child_process').spawn;
 module.exports = n => {
     return new Promise((resolve, reject) => {
-        let py = spawn('python', ['urand/urand.py', n.toString()]);
+        let scriptpath = `${__dirname}/urand.py`;
+        let py = spawn('python', [scriptpath, n.toString()]);
         let result = '';
         py.stderr.on('data', se => {
             console.log(`stderr: ${se}`);

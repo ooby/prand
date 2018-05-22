@@ -1,6 +1,6 @@
 {
     "name": "prand",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "random generators",
     "main": "index.js",
     "scripts": {
